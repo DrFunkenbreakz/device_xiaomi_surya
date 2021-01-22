@@ -1,0 +1,19 @@
+[
+  {
+    "remote" : "github",
+"repository" : "akash07k/device_xiaomi_surya",
+    "repository": "device_xiaomi_surya",
+    "target_path": "device/xiaomi/surya"
+  },
+  {
+    "remote" : "github",
+"repository" : "ArrowOS-Devices/android_vendor_xiaomi_surya",
+    "repository": "vendor_xiaomi_surya",
+    "target_path": "vendor/xiaomi/surya"
+  },
+  {
+    "remote" : "github",
+    "repository": "GZR-Kernels/Optimus_Drunk_Surya",
+    "target_path": "kernel/xiaomi/surya"
+  },
+]
