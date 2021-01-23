@@ -21,7 +21,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_WIFI_EXT := true
 
 #Officialization 
-LEGION_BUILD_TYPE := OFFICIAL
+LEGION_BUILD_TYPE := UNOFFICIAL
 LEGION_MAINTAINER := AkashKakkar
 LEGION_SUPPORT_URL := https://t.me/EvolutionXSurya
 LEGION_DONATE_URL := https://www.paypal.me/akash07
