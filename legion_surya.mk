@@ -9,7 +9,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common EvolutionX stuff.
+# Inherit some common LegionOS stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -20,14 +20,14 @@ WITH_GAPPS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_WIFI_EXT := true
 
-#Officialization
-EVO_BUILD_TYPE := OFFICIAL
-EVO_MAINTAINER := AkashKakkar
-EVO_SUPPORT_URL := https://t.me/EvolutionXSurya
-EVO_DONATE_URL := https://www.paypal.me/akash07
+#Officialization 
+LEGION_BUILD_TYPE := OFFICIAL
+LEGION_MAINTAINER := AkashKakkar
+LEGION_SUPPORT_URL := https://t.me/EvolutionXSurya
+LEGION_DONATE_URL := https://www.paypal.me/akash07
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_surya
+PRODUCT_NAME := legion_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3

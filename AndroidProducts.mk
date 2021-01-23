@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_surya.mk
+    $(LOCAL_DIR)/legion_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_surya-user \
-    evolution_surya-userdebug \
-    evolution_surya-eng
+    legion_surya-user \
+    legion_surya-userdebug \
+    legion_surya-eng
