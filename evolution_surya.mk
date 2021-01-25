@@ -6,11 +6,14 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some
+# Inherit some more utils
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+
+#ANXCamera
+$(call inherit-product, vendor/ANXCamera/config.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
